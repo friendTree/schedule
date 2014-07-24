@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D6767613-0A36-4A15-BDA9-0FDB7AF69723</string>
+	<key>IDESourceControlProjectName</key>
+	<string>schedule</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>58ED1E69-1BA9-4ADE-9297-2990552A7996</key>
+		<string>https://github.com/friendTree/schedule.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>schedule/schedule.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>58ED1E69-1BA9-4ADE-9297-2990552A7996</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/friendTree/schedule.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>58ED1E69-1BA9-4ADE-9297-2990552A7996</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>58ED1E69-1BA9-4ADE-9297-2990552A7996</string>
+			<key>IDESourceControlWCCName</key>
+			<string>schedule</string>
+		</dict>
+	</array>
+</dict>
+</plist>
