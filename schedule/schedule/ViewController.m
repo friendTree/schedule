@@ -64,8 +64,7 @@
 - (void)showSettingView
 {
     SettingViewController *settingViewController = [[SettingViewController alloc]init];
-    settingViewController.delegate = self;
-    [self presentViewController:settingViewController animated:YES completion:nil];
+    [self.navigationController pushViewController:settingViewController animated:YES];
 }
 
 -(void)didPressCloseSettingViewButton

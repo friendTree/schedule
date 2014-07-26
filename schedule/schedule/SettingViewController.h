@@ -8,15 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@protocol SettingViewControllerDelegate <NSObject>
-
--(void)didPressCloseSettingViewButton;
-
-@end
-
 @interface SettingViewController : UIViewController
 
-@property (weak, nonatomic) id<SettingViewControllerDelegate>delegate;
 @property (strong, nonatomic) UIWindow *window;
 
 @end
