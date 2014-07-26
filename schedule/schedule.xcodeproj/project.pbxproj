@@ -13,8 +13,6 @@
 		FF4271EE198120180031B1CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF4271EC198120180031B1CD /* InfoPlist.strings */; };
 		FF4271F0198120180031B1CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4271EF198120180031B1CD /* main.m */; };
 		FF4271F4198120180031B1CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4271F3198120180031B1CD /* AppDelegate.m */; };
-		FF4271F7198120180031B1CD /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4271F5198120180031B1CD /* Main_iPhone.storyboard */; };
-		FF4271FA198120180031B1CD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4271F8198120180031B1CD /* Main_iPad.storyboard */; };
 		FF4271FD198120180031B1CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4271FC198120180031B1CD /* ViewController.m */; };
 		FF4271FF198120180031B1CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4271FE198120180031B1CD /* Images.xcassets */; };
 		FF427206198120180031B1CD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF427205198120180031B1CD /* XCTest.framework */; };
@@ -45,8 +43,6 @@
 		FF4271F1198120180031B1CD /* schedule-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "schedule-Prefix.pch"; sourceTree = "<group>"; };
 		FF4271F2198120180031B1CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FF4271F3198120180031B1CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FF4271F6198120180031B1CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		FF4271F9198120180031B1CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		FF4271FB198120180031B1CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FF4271FC198120180031B1CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FF4271FE198120180031B1CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -116,8 +112,6 @@
 			children = (
 				FF4271F2198120180031B1CD /* AppDelegate.h */,
 				FF4271F3198120180031B1CD /* AppDelegate.m */,
-				FF4271F5198120180031B1CD /* Main_iPhone.storyboard */,
-				FF4271F8198120180031B1CD /* Main_iPad.storyboard */,
 				FF4271FB198120180031B1CD /* ViewController.h */,
 				FF4271FC198120180031B1CD /* ViewController.m */,
 				FF4271FE198120180031B1CD /* Images.xcassets */,
@@ -231,9 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF4271FA198120180031B1CD /* Main_iPad.storyboard in Resources */,
 				FF4271FF198120180031B1CD /* Images.xcassets in Resources */,
-				FF4271F7198120180031B1CD /* Main_iPhone.storyboard in Resources */,
 				FF4271EE198120180031B1CD /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,22 +276,6 @@
 				FF4271ED198120180031B1CD /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		FF4271F5198120180031B1CD /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF4271F6198120180031B1CD /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		FF4271F8198120180031B1CD /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF4271F9198120180031B1CD /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		FF42720E198120180031B1CD /* InfoPlist.strings */ = {

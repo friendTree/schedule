@@ -13,6 +13,14 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    //ウィンドウを生成
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen]bounds]];
+    //viewControllerクラスをアロケート
+    self.viewController = [[ViewController alloc]init];
+    //viewControllerをルートに設定
+    self.window.rootViewController = self.viewController;
+    //window描画
+    [self.window makeKeyAndVisible];
     return YES;
 }
 							
