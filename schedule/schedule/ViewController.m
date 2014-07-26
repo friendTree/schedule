@@ -58,7 +58,10 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
+    //セルの選択状態の解除
+    [_tableview deselectRowAtIndexPath:indexPath animated:YES];
+    DetailViewController *detailView = [[DetailViewController alloc]init];
+    [[self navigationController] pushViewController:detailView animated:YES];
 }
 
 - (void)showSettingView

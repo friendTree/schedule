@@ -21,6 +21,7 @@
 		FF427210198120180031B1CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF42720E198120180031B1CD /* InfoPlist.strings */; };
 		FF427212198120180031B1CD /* scheduleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF427211198120180031B1CD /* scheduleTests.m */; };
 		FFAC5359198341B400A8E17F /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAC5358198341B400A8E17F /* SettingViewController.m */; };
+		FFAC535C1983483900A8E17F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAC535B1983483900A8E17F /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		FF427211198120180031B1CD /* scheduleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = scheduleTests.m; sourceTree = "<group>"; };
 		FFAC5357198341B400A8E17F /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		FFAC5358198341B400A8E17F /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		FFAC535A1983483900A8E17F /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		FFAC535B1983483900A8E17F /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				FF4271F3198120180031B1CD /* AppDelegate.m */,
 				FF4271FB198120180031B1CD /* ViewController.h */,
 				FF4271FC198120180031B1CD /* ViewController.m */,
+				FFAC535A1983483900A8E17F /* DetailViewController.h */,
+				FFAC535B1983483900A8E17F /* DetailViewController.m */,
 				FFAC5357198341B400A8E17F /* SettingViewController.h */,
 				FFAC5358198341B400A8E17F /* SettingViewController.m */,
 				FF4271FE198120180031B1CD /* Images.xcassets */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFAC535C1983483900A8E17F /* DetailViewController.m in Sources */,
 				FF4271FD198120180031B1CD /* ViewController.m in Sources */,
 				FF4271F4198120180031B1CD /* AppDelegate.m in Sources */,
 				FF4271F0198120180031B1CD /* main.m in Sources */,
