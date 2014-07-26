@@ -19,6 +19,10 @@
     self.viewController = [[ViewController alloc]init];
     //viewControllerをルートに設定
     self.window.rootViewController = self.viewController;
+    //ナビゲーションコントローラ生成
+    self.navigationContoroller = [[UINavigationController alloc]initWithRootViewController:self.viewController];
+    //ナビゲーションコントローラを追加
+    [self.window addSubview:self.navigationContoroller.view];
     //window描画
     [self.window makeKeyAndVisible];
     return YES;
